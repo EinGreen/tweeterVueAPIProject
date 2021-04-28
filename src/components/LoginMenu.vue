@@ -10,6 +10,23 @@
 <script>
     export default {
         name: 'login-menu',
+        data() {
+            return {
+                loginStatus: '',
+            }
+        },
+        methods: {
+            atteptLogin() {
+                this.loginStatus = "Loading..."
+                axios.request({
+                    // Insert Url, and Method Here
+                }).then((res) => {
+                    console.log(res);
+                }).catch((err) => {
+                    console.log(err);
+                });
+            }
+        },
     }
 </script>
 
