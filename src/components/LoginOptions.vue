@@ -2,12 +2,13 @@
     <div>
         <button>Sign Up</button>
         <button>Log In</button>
+        <button>Delete User</button>
     </div>
 </template>
 
 <script>
     export default {
-        name: "option-menu"
+        name: "login-options"
     }
 </script>
 

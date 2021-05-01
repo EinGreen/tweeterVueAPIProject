@@ -1,7 +1,7 @@
 <template>
     <div>
-        <option-menu></option-menu>
-        <sign-up></sign-up>
+        <login-options></login-options>
+        <signup-menu></signup-menu>
         <login-menu></login-menu>
     </div>
 </template>
